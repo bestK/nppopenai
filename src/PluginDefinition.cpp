@@ -49,7 +49,7 @@ NppData nppData;
 
 // Config file related vars
 std::wstring configAPIValue_secretKey = TEXT("ENTER_YOUR_COPILOT_TOKEN_HERE");                // Modify below on update!
-std::wstring configAPIValue_baseURL = TEXT(""); // Trailing '/' will be erased (if any)
+std::wstring configAPIValue_baseURL = TEXT(" "); // Trailing '/' will be erased (if any)
 bool isKeepQuestion = true;
 
 // Collect selected text by Scintilla here
